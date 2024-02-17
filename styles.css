@@ -1,0 +1,147 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header {
+   background-color: #2ecc71; /* Change to desired color */
+    color: #ffffff; /* Change text color to contrast */
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+/* Features section */
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 3%;
+  }
+  
+  .features-container .box {
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  
+  .features-container .box .box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  /* Brands section */
+  .brands-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 3%;
+  }
+  
+  .brands-container .box {
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  
+  .brands-container .box .box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  /*  top bikes section */
+  .topbikes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3%;
+  }
+  
+  .topbikes-container .box {
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  
+  .topbikes-container .box .box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  /* Latest bikes section */
+  .latestbikes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 3%;
+  }
+  
+  .latestbikes-container .box {
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  
+  .latestbikes-container .box .box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+
+footer {
+    /*background-color: #333;
+    color: #fff;*/
+    padding: 10px 20px;
+    text-align: center;
+}
+footer {
+    background-color: #2ecc71; /* Change to desired color */
+    color: #ffffff; /* Change text color to contrast */
+}
+
+.logo {
+    float: left;
+    margin-right: 2px; /* Adjust as needed */
+}
+
+header h1 {
+    margin: 30; /* Remove default margin */
+}
+
